@@ -70,9 +70,14 @@
     <Content Include="CacheExample1.aspx" />
     <Content Include="CacheExample2.aspx" />
     <Content Include="CacheExample3.aspx" />
+    <Content Include="DataCacheExample.aspx" />
+    <Content Include="DataCacheExample2.aspx" />
+    <Content Include="DataCacheSimpleDemo.aspx" />
     <Content Include="DepartmentForm.aspx" />
     <Content Include="FragmentCacheExample.aspx" />
+    <Content Include="HomePage.aspx" />
     <Content Include="MyControl.ascx" />
+    <Content Include="MyData.txt" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -97,6 +102,27 @@
     <Compile Include="CacheExample3.aspx.designer.cs">
       <DependentUpon>CacheExample3.aspx</DependentUpon>
     </Compile>
+    <Compile Include="DataCacheExample.aspx.cs">
+      <DependentUpon>DataCacheExample.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DataCacheExample.aspx.designer.cs">
+      <DependentUpon>DataCacheExample.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DataCacheExample2.aspx.cs">
+      <DependentUpon>DataCacheExample2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DataCacheExample2.aspx.designer.cs">
+      <DependentUpon>DataCacheExample2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DataCacheSimpleDemo.aspx.cs">
+      <DependentUpon>DataCacheSimpleDemo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DataCacheSimpleDemo.aspx.designer.cs">
+      <DependentUpon>DataCacheSimpleDemo.aspx</DependentUpon>
+    </Compile>
     <Compile Include="DepartmentForm.aspx.cs">
       <DependentUpon>DepartmentForm.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -110,6 +136,13 @@
     </Compile>
     <Compile Include="FragmentCacheExample.aspx.designer.cs">
       <DependentUpon>FragmentCacheExample.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="HomePage.aspx.cs">
+      <DependentUpon>HomePage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HomePage.aspx.designer.cs">
+      <DependentUpon>HomePage.aspx</DependentUpon>
     </Compile>
     <Compile Include="MyControl.ascx.cs">
       <DependentUpon>MyControl.ascx</DependentUpon>
